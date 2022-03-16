@@ -15,6 +15,11 @@ def home():
 def about():
     return render_template("/Commonpages/aboutus.html")
 
+
+
+
+
+
 '''
 Patients
 '''
@@ -26,6 +31,10 @@ def Login_Patients():
 def Register_Patients():
     return render_template("/P_Pages/P_Register.html")
 
+
+
+
+
 '''
 Doctors
 '''
@@ -36,6 +45,9 @@ def Login_Doctors():
 @app.route("/Register_Doctors")
 def Register_Doctors():
     return render_template("/D_Pages/D_Register.html")
+
+
+
 
 '''
 Lab

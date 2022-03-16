@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Image xmlns="http://schemas.microsoft.com/deepzoom/2008" TileSize="128" Overlap="2" Format="png" Type="zoomifytileservice"        
+TilesUrl= "./test_files/">
+<Size Width="1539" Height="1376"/></Image>

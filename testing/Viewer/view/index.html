@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pathology</title>
+    <script src="../openseadragon/openseadragon.min.js"></script>
+    <script src="../annotations/openseadragon-annotorious.min.js"></script>
+    <link rel="stylesheet" href="../annotations/annotorious.min.css" />
+    <style>
+      .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+    </style>
+  </head>
+  <body>
+  	<center><h1><u>Viewer</u></h1></center>
+    <div class="flex-container">
+      <div>
+        <div id="toolbar-container1"></div>
+	<center><h2><u>WSI</u></h2></center>
+        <div id="openseadragon1" style="width: 600px; height: 600px;border-style: solid;margin:10px"></div>
+      </div>
+      <div>
+        <div id="toolbar-container2"></div>
+	<center><h2><u>Predicted</u></h2></center>
+        <div id="openseadragon2" style="width: 600px; height: 600px;border-style: solid;margin:10px"></div>
+      </div>
+      <div>
+        <div id="toolbar-container3"></div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@recogito/annotorious-toolbar@latest/dist/annotorious-toolbar.min.js"></script>
+    <script src="./view.js"></script>
+  </body>
+</html>
