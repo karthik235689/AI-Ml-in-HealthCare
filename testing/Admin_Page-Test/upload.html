@@ -4,7 +4,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
 	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-profile.html" />
-	<title>Admin Page | Upload History</title>
+	<title>Admin Page | Upload page</title>
 	<link href="css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -25,22 +25,22 @@
 							<i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
             			</a>
 					</li>
-					<li class="sidebar-item activex">
+					<li class="sidebar-item">
 						<a class="sidebar-link" href="pages-profile.html">
             				<i class="align-middle" data-feather="user"></i> <span class="align-middle">Profile</span>
             			</a>
 					</li>
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-blank.html">
+						<a class="sidebar-link" href="uploadhistory.html">
               				<i class="align-middle" data-feather="book"></i> <span class="align-middle">Upload History</span>
            	 			</a>
 					</li>
 					<li class="sidebar-header">
-						Jobs
+						Jobs Done
 					</li>
-					<li class="sidebar-item">
+					<li class="sidebar-item active">
 						<a class="sidebar-link" href="pages-blank.html">
-							<i class="align-middle" data-feather="book"></i> <span class="align-middle">Upload</span>
+							<i class="align-middle" data-feather="book"></i> <span class="align-middle">Upload Page</span>
 						</a>
 					</li>
 					<li class="sidebar-header">
@@ -158,125 +158,143 @@
 			</nav>
 <!--Nav bar section completed by this line-->
 
-
 			<main class="content">
 				<div class="container-fluid p-0">
-					<h1 class="h3 mb-3">Upload History Page</h1>
-						<div class="row">
-							<div class="col-12 col-lg-12 col-xxl-12 d-flex">
-								<div class="card flex-fill">
-									<table class="table table-hover my-0">
-										<thead>
-											<tr>
-												<th>Patient Name</th>
-												<th class="d-none d-xl-table-cell">Date</th>
-												<th class="d-none d-xl-table-cell">Uploaded Image name</th>
-												<th>Status</th>
-												<th class="d-none d-md-table-cell">User</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>Project Apollo</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">Vanessa Tucker</td>
-											</tr>
-											<tr>
-												<td>Project Fireball</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-danger">Cancelled</span></td>
-												<td class="d-none d-md-table-cell">William Harris</td>
-											</tr>
-											<tr>
-												<td>Project Hades</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">Sharon Lessman</td>
-											</tr>
-											<tr>
-												<td>Project Nitro</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-warning">In progress</span></td>
-												<td class="d-none d-md-table-cell">Vanessa Tucker</td>
-											</tr>
-											<tr>
-												<td>Project Phoenix</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">William Harris</td>
-											</tr>
-											<tr>
-												<td>Project X</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">Sharon Lessman</td>
-											</tr>
-											<tr>
-												<td>Project Romeo</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">Christina Mason</td>
-											</tr>
-											<tr>
-												<td>Project Wombat</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-warning">In progress</span></td>
-												<td class="d-none d-md-table-cell">William Harris</td>
-											</tr>
-											<tr>
-												<td>Project Fireball</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-danger">Cancelled</span></td>
-												<td class="d-none d-md-table-cell">William Harris</td>
-											</tr>
-											<tr>
-												<td>Project Hades</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">Sharon Lessman</td>
-											</tr>
-											<tr>
-												<td>Project Nitro</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-warning">In progress</span></td>
-												<td class="d-none d-md-table-cell">Vanessa Tucker</td>
-											</tr>
-											<tr>
-												<td>Project Phoenix</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">William Harris</td>
-											</tr>
-											<tr>
-												<td>Project X</td>
-												<td class="d-none d-xl-table-cell">01/01/2021</td>
-												<td class="d-none d-xl-table-cell">31/06/2021</td>
-												<td><span class="badge bg-success">Done</span></td>
-												<td class="d-none d-md-table-cell">Sharon Lessman</td>
-											</tr>
-										</tbody>
-									</table>
-									<!---Also have to add more button--->
+					<div class="mb-3">
+						<h1 class="h3 d-inline align-middle">Upload Form</h1>
+					</div>
+					<div class="row">
+						<div class="col-12 col-lg-6">
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Input</h5>
+								</div>
+								<div class="card-body">
+									<input type="text" class="form-control" placeholder="Enter name of the patient">
+								</div>
+								
+								<div class="card-body">
+									<input type="text" class="form-control" placeholder="Enter Unique ID of the Patient">
+								</div>
+								<div class="card-body">
+									<input type="text" class="form-control" placeholder="Enter the image scanner name">
 								</div>
 							</div>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Brief Info</h5>
+								</div>
+								<div class="card-body">
+									<textarea class="form-control" rows="2" placeholder="Information"></textarea>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Read only</h5>
+								</div>
+								<div class="card-body">
+									<input class="form-control" type="text" placeholder="Readonly input" readonly>
+								</div>
+							</div>
+							</div>
+							<div class="col-12 col-lg-6">
+								<div class="card">
+									<div class="card-header">
+										<h5 class="card-title mb-0">Upload File (Images or reports)</h5>
+									</div>
+									<div class="card-body">
+									<div>
+										<label class="form-check">
+										<input class="form-check-input" type="radio" value="option1" name="radios-example" checked>
+											<span class="form-check-label">
+  												Option one is this and that&mdash;be sure to include why it's great
+											</span>
+										</label>
+							<label class="form-check">
+								<input class="form-check-input" type="radio" value="option2" name="radios-example">
+									<span class="form-check-label">
+										Option two can be something else and selecting it will deselect option one
+									</span>
+								</label>
+							<label class="form-check">
+<input class="form-check-input" type="radio" value="option3" name="radios-example" disabled>
+<span class="form-check-label">
+  Option three is disabled
+</span>
+</label>
 						</div>
-	
+						<div>
+							<label class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inline-radios-example" value="option1">
+<span class="form-check-label">
+  1
+</span>
+</label>
+							<label class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inline-radios-example" value="option2">
+<span class="form-check-label">
+  2
+</span>
+</label>
+							<label class="form-check form-check-inline">
+<input class="form-check-input" type="radio" name="inline-radios-example" value="option3" disabled>
+<span class="form-check-label">
+  3
+</span>
+</label>
+						</div>
 					</div>
 				</div>
-			</main>
+
+				<div class="card">
+					<div class="card-header">
+						<h5 class="card-title mb-0">Selects</h5>
+					</div>
+					<div class="card-body">
+						<select class="form-select mb-3">
+<option selected>Open this select menu</option>
+<option>One</option>
+<option>Two</option>
+<option>Three</option>
+</select>
+
+						<select multiple class="form-control">
+<option>One</option>
+<option>Two</option>
+<option>Three</option>
+<option>Four</option>
+</select>
+					</div>
+				</div>
+
+				<div class="card">
+					<div class="card-header">
+						<h5 class="card-title mb-0">Disabled</h5>
+					</div>
+					<div class="card-body">
+						<div class="mb-3">
+							<label class="form-label">Disabled input</label>
+							<input type="text" class="form-control" placeholder="Disabled input" disabled>
+						</div>
+						<div class="mb-3">
+							<label class="form-label">Disabled select menu</label>
+							<select class="form-control" disabled>
+<option>Disabled select</option>
+</select>
+						</div>
+						<label class="form-check">
+<input class="form-check-input" type="checkbox" value="" disabled>
+<span class="form-check-label">
+Can't check this
+</span>
+</label>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</main>
 		</div>
 	</div>
 
