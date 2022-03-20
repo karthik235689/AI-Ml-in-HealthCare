@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	<link rel="canonical" href="https://demo-basic.adminkit.io/" />
+	<link href="../../static/css/L_css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<!---Dynamic Title--->
+	{% if title %}
+		<title>Admin Page - {{title}}</title>
+	{% else %}
+		<title>Admin Page</title>
+	{% endif %}
+</head>
+<body>
+    {% block navbar %}{% endblock navbar %}
+<!--Nav bar section completed by this line-->
+
+
+<!--Main Body Section-->
+    {% block content %}{% endblock content %}	
+</body>
+</html>

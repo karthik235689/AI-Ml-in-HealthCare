@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
-	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-profile.html" />
-	<title>Admin Page | Profile</title>
-	<link href="css/app.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
+{% extends "layout.html" %}
+{% block navbar %}
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar js-sidebar">
 			<div class="sidebar-content js-simplebar">
@@ -156,8 +146,11 @@
 					</ul>
 				</div>
 			</nav>
-<!--Nav bar section completed by this line-->
+			<!--Nav bar section completed by this line-->
+{% endblock navbar%}
 
+
+{% block content %}
 			<main class="content">
 				<div class="container-fluid p-0">
 					<div class="mb-3">
@@ -224,6 +217,5 @@
 			</main>
 		</div>
 	</div>
-	<script src="js/app.js"></script>
-</body>
-</html>
+	<script src="../../static/js/L_js/app.js"></script>
+{% endblock content%}

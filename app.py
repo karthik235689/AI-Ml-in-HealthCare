@@ -60,6 +60,21 @@ def Login_Lab():
 def Register_Lab():
     return render_template("/D_Pages/D_Login.html")
 
+@app.route("/lab/home")
+def Home_Lab():
+    return render_template("/L_Pages/index.html",title="Dashboard")
+
+@app.route("/lab/profile")
+def Profile_Lab():
+    return render_template("/L_Pages/profile.html",title="Profile")
+
+@app.route("/lab/home")
+def Upload_Lab():
+    return render_template("/L_Pages/upload.html",title="Upload")
+
+@app.route("/lab/home")
+def Uploadhistory_Lab():
+    return render_template("/L_Pages/uploadhistory.html",title="Upload History")
 
 if __name__ == "__main__":
     app.run(debug=True)
