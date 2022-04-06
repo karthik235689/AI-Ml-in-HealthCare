@@ -68,11 +68,11 @@ def Home_Lab():
 def Profile_Lab():
     return render_template("/L_Pages/profile.html",title="Profile")
 
-@app.route("/lab/home")
+@app.route("/lab/upload")
 def Upload_Lab():
     return render_template("/L_Pages/upload.html",title="Upload")
 
-@app.route("/lab/home")
+@app.route("/lab/history")
 def Uploadhistory_Lab():
     return render_template("/L_Pages/uploadhistory.html",title="Upload History")
 
