@@ -31,3 +31,7 @@ COVID-19 is five times as lethal as the flu, causing considerable morbidity and 
 Requirements Installation.
 $ pip install -r requirements.txt
 ```
+```
+MySql Installation.
+$ pip install -r requirements.txt
+```
