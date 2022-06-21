@@ -16,5 +16,7 @@ Ayushman Bharat is a web page where each and every citizen can login with their 
 ## Admin Page for the laboratory Employees.
 This page is lab employees to update the records of the patients with their repective DHC Card number and their details.Here we us the AI for predecting the diseases and the AI prediction result will also be sent to the Ayushman Bharat Web Page and doctor can look into it and anaylse the result.NOTE:Now presently only covid detection is being implemented as a AI prediction but in the future more AI algorithims can be integrated.
 
+## Overview of the Covid 19 
+![header](https://user-images.githubusercontent.com/53186985/174720673-6fdace2d-638c-4aa4-a243-f32212c19c9a.png)
 
 
