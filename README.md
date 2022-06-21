@@ -43,10 +43,10 @@ Link :
 
 ## 4. Models Used
 Classification Models
-VGG16
-Inception
-Xception
-Resnet
+* VGG16
+* Inception
+* Xception
+* Resnet
 Segementation Models
 ...
 
