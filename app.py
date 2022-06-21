@@ -16,10 +16,6 @@ def about():
     return render_template("/Commonpages/aboutus.html")
 
 
-
-
-
-
 '''
 Patients
 '''
