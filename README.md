@@ -19,4 +19,5 @@ This page is lab employees to update the records of the patients with their repe
 ## Overview of the Covid 19 
 ![header](https://user-images.githubusercontent.com/53186985/174720673-6fdace2d-638c-4aa4-a243-f32212c19c9a.png)
 
+COVID-19 is five times as lethal as the flu, causing considerable morbidity and mortality. COVID-19 pulmonary infection, like other pneumonias, causes inflammation and fluid in the lungs. COVID-19 appears on chest radiographs to be highly similar to other viral and bacterial pneumonias, making diagnosis difficult. Our Deeplearning models for detecting and localising COVID-19 might aid clinicians in making an accurate and timely diagnosis. As a result, patients may be able to receive the appropriate medication before the virus's most serious effects manifest.
 
