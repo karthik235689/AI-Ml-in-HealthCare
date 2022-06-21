@@ -22,9 +22,9 @@ This page is lab employees to update the records of the patients with their repe
 COVID-19 is five times as lethal as the flu, causing considerable morbidity and mortality. COVID-19 pulmonary infection, like other pneumonias, causes inflammation and fluid in the lungs. COVID-19 appears on chest radiographs to be highly similar to other viral and bacterial pneumonias, making diagnosis difficult. Our Deeplearning models for detecting and localising COVID-19 might aid clinicians in making an accurate and timely diagnosis. As a result, patients may be able to receive the appropriate medication before the virus's most serious effects manifest.
 
 ## Installtion of the Project procedure.
-1.HARDWARE: Basic Computer to work with deep learning models and GPU'S (optional but our code can also utilize GPU for faster training and testing).
-2.Python : Latest Current Stable version of python.
-3.Python packages are detailed separately in requirements.
-4.MySql 
+* HARDWARE: Basic Computer to work with deep learning models and GPU'S (optional but our code can also utilize GPU for faster training and testing).
+* Python : Latest Current Stable version of python.
+* Python packages are detailed separately in requirements.
+* MySql 
 
 
