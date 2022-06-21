@@ -168,18 +168,3 @@ $ python make_annotation.py
 |                  | [YoloV5x6 768](https://github.com/dungnb1333/SIIM-COVID19-Detection/releases/download/v0.1/detection_yolov5.zip) | [EffdetD7 768](https://github.com/dungnb1333/SIIM-COVID19-Detection/releases/download/v0.1/detection_efficientdet.zip) | [F-RCNN R200 768](https://github.com/dungnb1333/SIIM-COVID19-Detection/releases/download/v0.1/detection_fasterrcnn_resnet200d_768.zip) | [F-RCNN R101 1024](https://github.com/dungnb1333/SIIM-COVID19-Detection/releases/download/v0.1/detection_fasterrcnn_resnet101d_1024.zip) |
 | :--------------- | :----------- | :----------- | :-------------- | :--------------- |
 | mAP@0.5 TTA      | 0.580        | 0.594        | 0.592           | 0.596            |
-
-## 5.FINAL SUBMISSION
-[siim-covid19-2021](https://www.kaggle.com/nguyenbadung/siim-covid19-2021?scriptVersionId=69474844) Public LB: 0.658 / Private LB: 0.635\
-[demo notebook](https://github.com/dungnb1333/SIIM-COVID19-Detection/blob/main/src/demo_notebook/demo.ipynb) to visualize output of models
-
-## 6.AWESOME RESOURCES
-[Pytorch](https://github.com/pytorch/pytorch)✨\
-[PyTorch Image Models](https://github.com/rwightman/pytorch-image-models)✨\
-[Segmentation models](https://github.com/qubvel/segmentation_models.pytorch)✨\
-[EfficientDet](https://github.com/rwightman/efficientdet-pytorch)✨\
-[YoloV5](https://github.com/ultralytics/yolov5)✨\
-[FasterRCNN FPN](https://github.com/pytorch/vision/tree/master/torchvision/models/detection)✨\
-[Albumentations](https://github.com/albumentations-team/albumentations)✨\
-[Weighted boxes fusion](https://github.com/ZFTurbo/Weighted-Boxes-Fusion)✨
-
