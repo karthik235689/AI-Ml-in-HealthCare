@@ -40,3 +40,13 @@ Link :
 #### 2.1 SIIM COVID 19 DATASET
 - download competition dataset at [link](https://www.kaggle.com/c/siim-covid19-detection/data) then extract to ./dataset/siim-covid19-detection
 
+
+## 4. Models Used
+Classification Models
+VGG16
+Inception
+Xception
+Resnet
+Segementation Models
+...
+
