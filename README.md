@@ -33,5 +33,7 @@ $ pip install -r requirements.txt
 ```
 ```
 MySql Installation.
-$ pip install -r requirements.txt
+Link : 
 ```
+
+
