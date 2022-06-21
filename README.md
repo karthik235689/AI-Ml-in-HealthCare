@@ -50,3 +50,4 @@ Classification Models
 Segementation Models
 ...
 
+## 5. Steps to run the code.
