@@ -35,22 +35,3 @@ $ pip install -r requirements.txt
 MySql Installation.
 Link : 
 ``` 
-
-## 2.DATASET
-The dataset for the project was gathered from two sources:
-
-1. Chest X-ray images (1000 images) were obtained from: https://github.com/ieee8023/covid-chestxray-dataset
-
-2. CT Scan images (750 images) were obtained from: https://github.com/UCSD-AI4H/COVID-CT/tree/master/Data-split
-
-
-## 4. Models Used
-Classification Models
-* VGG16
-* Inception
-* Xception
-* Resnet
-Segementation Models
-...
-
-## 5. Steps to run the code.
