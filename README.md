@@ -37,8 +37,11 @@ Link :
 ``` 
 
 ## 2.DATASET
-#### 2.1 SIIM COVID 19 DATASET
-- download competition dataset at [link](https://www.kaggle.com/c/siim-covid19-detection/data) then extract to ./dataset/siim-covid19-detection
+The dataset for the project was gathered from two sources:
+
+1. Chest X-ray images (1000 images) were obtained from: https://github.com/ieee8023/covid-chestxray-dataset
+
+2. CT Scan images (750 images) were obtained from: https://github.com/UCSD-AI4H/COVID-CT/tree/master/Data-split
 
 
 ## 4. Models Used
